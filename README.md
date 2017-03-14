@@ -4,7 +4,7 @@
 
 Apex was an in house financial application for a company working in the cell tower lease business. There was no framework used.
 
-lockboxparser.php - was used to parse the line items from a digital checkbox from Well Fargo. Checks would come in from multiple wireless carriers (Sprint, Verison etc) and checks would have from 30-50 line items each intended to be routed to a different account or property... and there was no consistency between carriers how those line items would be formatted. We had to rely on the accounting department's existing experience to set up up a logic stream that would route each check and sub-amount correctly. We accomplished this using a priority_queue object and lots of preg_match() comparisons.
+lockboxparser.php - was used to parse the line items from a digital checkbox from Wells Fargo. Checks would come in from multiple wireless carriers (Sprint, Verizon etc) and checks would have from 30-50 line items each intended to be routed to a different account or property... and there was no consistency between carriers how those line items would be formatted. We had to rely on the accounting department's existing experience to set up up a logic stream that would route each check and sub-amount correctly. We accomplished this using a priority_queue object and lots of preg_match() comparisons.
 
 activitymodule.php - was one of the scripts in the application search page. "activities" were one of the parameters by which users could search existing deals. This could have been cleaner had we been using an ORM but it was not available in this case.
 
