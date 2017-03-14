@@ -8,6 +8,8 @@ lockboxparser.php - was used to parse the line items from a digital checkbox fro
 
 activitymodule.php - was one of the scripts in the application search page. "activities" were one of the parameters by which users could search existing deals. This could have been cleaner had we been using an ORM but it was not available in this case.
 
+asset_amortizarion_report.php is mostly a complex postgres query report.
+
 charts.php - was a simple highcharts.js dashboard page set up for the accounting department.
 
 ## Troop
